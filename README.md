@@ -8,7 +8,7 @@ One approach I took when trying to simplify the method of picking the next cell 
 
 An example of this can be seen below where the left image is a stage in the process of solving a hard sudoku, and on the right, is the 9x9 grid of the corresponding possible values where an already filled cell would have a 10 filled in since any number less than that has the chance to be picked for the next cell to fill.
 
-<img src="images/example.png" style="width: 60%;"/>
+![board vs values array](https://github.com/ArielKatzir/sudoku_solver_constraint_satisfaction/blob/master/images/example.PNG)
 
 After doing that, making the main algorithm was made similarly to the one made in the 8-Queens' puzzle code. A new cell would be picked and its possible values would be calculated and the first one on the list would be filled in the cell. Then recursion is used on the next picked cell. If the validation function returns false, the current board state would backtrack and try a different and continue until the board is completely solved, or all of the possible values in one of the cells fail to be valid ones. In the case of failure, a 9x9 grid filled with -1's would be returned.
 
