@@ -17,3 +17,8 @@ After doing that, making the main algorithm was made similarly to the one made i
 With more time in hand, solving time could be greatly reduced. One section in my implementation that I wasn't satisfied with was the functions I used to divide and retrieve values from the 3x3 boxes in the 9x9 grid. My method was to iterate over the grid with jumps of 3 and storing the values in the boxes in 9x1x9 arrays. Whenever values from the given box were needed to be retrieved to check the possible values domain of a single cell, the whole board was iterated over which dramatically increases soling time. A solution to that could be a global 9x9 board variable where every row can contain a box, and every time a new cell is filled, that board updates. This could have made values easily retrievable with a great reduction in the redundancy of computing power and time.
 
 When looking for an algorithm to use for solving sudoku boards online, I came across an algorithm called algorithm X made by Donald Knuth which was said to perform better than constraint satisfaction. It was made to solve __exact cover__ problems which meant I had to convert data taken from the sudoku board to meet the exact cover form before applying the algorithm to it. As interesting as it sounded, I was more familiar with constraint satisfaction and therefore could do it with more ease and less worry from running out of time.
+
+* Could make the sudoku solvable for n^2 x n^2 where n is an integer.
+* Make avaliable to run on a website
+* Make inputting a new sudoku possible
+* Write a code to create new sudokus 
