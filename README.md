@@ -1,4 +1,4 @@
-# CM20252 Artificial Intelligence - Sudoku Solver Coursework
+Sudoku Solver Coursework
 
 ### <u>The Algorithm<u/>
 The chosen algorithm is the course's recommended algorithm, __backtracking depth-first search with constraint satisfaction__. After an online search of different search algorithms for tasks such as sudoku solving, I found this to be one of the most commonly used algorithms. I chose this algorithm as I was already familiar with it and it yielded practical solving times and always had successful or unsuccessful outcomes.
