@@ -3,8 +3,8 @@ Sudoku Solver
 ### <u>The Algorithm<u/>
 __backtracking depth-first search with constraint satisfaction__ was used for this project. After some reasearch of different search algorithms for tasks such as sudoku solving, I found this to be one of the most commonly used algorithmsand a good introduction to the topic. 
 
-![board vs values array](https://github.com/ArielKatzir/sudoku_solver_constraint_satisfaction/blob/master/images/example.PNG)
-
+<img src="scrrenshot.png" width="600" height="600" />
+  
 ### <u>Improvements and different approaches<u/>
 
 * Could make the sudoku solvable for n^2 x n^2 where n is an integer.
